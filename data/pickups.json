@@ -1,0 +1,82 @@
+{ "buals1":
+  { "sx": 0
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "buals2":
+  { "sx": 32
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "buals3":
+  { "sx": 64
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "bepis":
+  { "sx": 0
+  , "sy": 32
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "chiggen":
+  { "sx": 32
+  , "sy": 32
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "HONHONHON":
+  { "sx": 64
+  , "sy": 32
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "putty":
+  { "sx": 0
+  , "sy": 64
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "wedge":
+  { "sx": 32
+  , "sy": 64
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "iron":
+  { "sx": 64
+  , "sy": 64
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "driver":
+  { "sx": 96
+  , "sy": 64
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+}
+

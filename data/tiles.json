@@ -1,0 +1,42 @@
+{ "floor":
+  { "sx": 0
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 1
+  , "frames": 1
+  }
+, "wall":
+  { "sx": 32
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 1
+  , "frames": 1
+  }
+, "plant":
+  { "sx": 64
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 1
+  , "frames": 1
+  }
+, "counter":
+  { "sx": 96
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 1
+  , "frames": 1
+  }
+, "stairs":
+  { "sx": 128
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 1
+  , "frames": 1
+  }
+}
+

@@ -1,0 +1,82 @@
+{ "caddy":
+  { "sx": 0
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "golfer1":
+  { "sx": 0
+  , "sy": 48
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "golfer2":
+  { "sx": 0
+  , "sy": 96
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "golfer3":
+  { "sx": 0
+  , "sy": 144
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "golfer4":
+  { "sx": 0
+  , "sy": 192
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+,  "lcaddy":
+  { "sx": 0
+  , "sy": 240
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "lgolfer1":
+  { "sx": 0
+  , "sy": 288
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "lgolfer2":
+  { "sx": 0
+  , "sy": 336
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "lgolfer3":
+  { "sx": 0
+  , "sy": 384
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+, "lgolfer4":
+  { "sx": 0
+  , "sy": 432
+  , "tilew": 32
+  , "tileh": 48
+  , "cols": 5
+  , "frames": 5
+  }
+}
+

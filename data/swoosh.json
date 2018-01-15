@@ -1,0 +1,10 @@
+{ "swoosh":
+  { "sx": 0
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 5
+  , "frames": 5
+  }
+}
+

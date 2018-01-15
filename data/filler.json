@@ -1,0 +1,34 @@
+{ "filler1":
+  { "sx": 0
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "filler2":
+  { "sx": 32
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "filler3":
+  { "sx": 64
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+, "filler4":
+  { "sx": 96
+  , "sy": 0
+  , "tilew": 32
+  , "tileh": 32
+  , "cols": 1
+  , "frames": 1
+  }
+}
+
