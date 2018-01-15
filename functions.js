@@ -577,7 +577,7 @@ function init(){
                 if(level[rngY + 1][rngX + 1] == 1) { n++; }
             }
             if(rngY > 1 && rngY < level.length - 2 && rngX > 1 && rngX < level[0].length - 2
-                && level[rngY][rngX] == 0 && (n == 0 || n == 1 || n == 3 || n == 5)) {
+                && level[rngY][rngX] == 0 && (n == 0)) {
                 level[rngY][rngX] = type;
                 plop = true;
             }
