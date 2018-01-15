@@ -1,0 +1,3 @@
+[submodule "ngdc-2018"]
+	path = ngdc-2018
+	url = https://github.com/VictoriaLacroix/ngdc-2018.git
