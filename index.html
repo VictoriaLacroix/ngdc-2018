@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+        <title>Golf Caddy's Revenge: Hole-in-one</title><html><link href="ball.png" rel="shortcut icon">
+        <script src='quintus-all.js'></script>
+        <script src='functions.js'></script>
+        <script src='jquery.min.js'></script>
+        <style> 
+            @font-face {
+            font-family: 'fs';
+            src:  url('fs.ttf'); 
+            font-weight: normal;
+            font-style: normal;
+            }
+            #title{font-size:5em;margin:30px;text-align:center;color:white}
+            body { padding:0px; margin:0px;font-family:'fs';background-color:#4f8c1a;background-image:url('bg.png'); } 
+            #golf{width:640px;height:480px;background-image:url(images/grassfloor.png)}
+            #content{width:640px;margin:auto;position:relative;top:0px;font-size:1.1em;font-weight:bold;color:white;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+            #information,#bottom{display:flex}
+            #information{margin-bottom:0px;vertical-align:top;}
+            #information img{max-height:50px;}
+            #health, #weapon, #balls,#shopitem,#price,#floor{display:inline-block;flex:1;vertical-align:top;}
+            .value{display:inline-block}
+            #weapon{text-align:center;}
+            #balls{text-align:right}
+            #golf{border:3px solid white;
+                box-shadow:3px 4px 5px 6px #333;}
+            #floor{width:640px; text-align:right;font-size:1.8em}
+            #price{display:none}
+            #information img{max-height:26px;margin-right:8px;}
+            #weapon img{max-height:37px}
+            #weapon{position:relative;top:-12px}
+            #s{display:inline-block}
+            #instr{font-size:0.8em}
+            #shopitem{display:none}
+            #ballicon{display:inline;vertical-align:bottom;}
+            #ballicon img{max-height:20px;vertical-align:bottom;position:relative;top:-6px}
+            #disclaimer{text-align:center;font-size:0.6em;font-family:'Trebuchet MS';text-transform:uppercase}
+        </style>
+    </head>
+    <body>
+        <div id="title">Golf Caddy's Revenge: Hole-In-One</div>
+        <div id="content">
+            <div id="information">
+                <div id="health"><img src="heart.png"><div class="value">25</div>/25</div>
+                <div id="weapon"><img src="club.png"><div class="value">Putter</div></div>
+                <div id="balls"><img src="ball.png"><div class="value">0</div></div>
+            </div>
+            <canvas id='golf' width='640' height='480'></canvas>
+            <div id="bottom">
+                <div id="shopitem"><div class="value">&nbsp;</div><div id="instr">SPACEBAR to purchase</div></div>
+                <div id="price"><div class="value">&nbsp;</div> <div id='ballicon'><img src='ball.png'></div></div>
+                <div id="floor">Floor <div class="value">1</div></div>
+            </div>
+            <div id="disclaimer">Tested only in Firefox and Chrome</div>
+        </div>
+    <script src='golf.js'></script>
+    </body>
+</html>
